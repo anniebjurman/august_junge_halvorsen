@@ -3,7 +3,6 @@
     /* background-color: pink; */
     display: flex;
     justify-content: space-between;
-    text-transform: uppercase;
 }
 
 .h_part {
@@ -17,5 +16,10 @@
 }
 
 .h_middle {
+    justify-content: center;
+}
+
+.body {
+    display: flex;
     justify-content: center;
 }
