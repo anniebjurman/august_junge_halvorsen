@@ -1,0 +1,21 @@
+.header {
+    padding: 0;
+    /* background-color: pink; */
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+
+.h_part {
+    /* background-color: pink; */
+    width: 33%;
+    display: flex;
+}
+
+.h_end {
+    justify-content: end;
+}
+
+.h_middle {
+    justify-content: center;
+}
