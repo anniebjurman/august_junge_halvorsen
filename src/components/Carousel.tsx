@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react';
 import './Carousel.css';
-import { motion } from 'framer-motion';
 
 function Carousel() {
     const images = [
@@ -17,11 +16,11 @@ function Carousel() {
         }, 3000);
 
         return () => clearInterval(interval);
-      }, []);
+      }, [images.length]);
 
     return (
         <div className='carousel'>
-            <img src={images[currentImageIndex]} />
+            <img src={images[currentImageIndex]} alt='design of houses' />
         </div>
     );
 }

@@ -13,3 +13,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'TimesNewRomanBold';
+  src: local('TimesNewRomanBold'), url(./fonts/times_new_roman_bold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'TimesNewRoman';
+  src: local('TimesNewRoman'), url(./fonts/times_new_roman.ttf) format('truetype');
+}
