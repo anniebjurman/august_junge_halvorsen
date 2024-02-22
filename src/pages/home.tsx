@@ -1,5 +1,5 @@
 import './Home.css';
-import Carousel from '../components/Carousel';
+import ImageLoop from '../components/ImageLoop';
 
 function Home() {
 
@@ -25,7 +25,7 @@ function Home() {
       </div>
 
       <div className='body'>
-        <Carousel />
+        <ImageLoop/>
       </div>
 
       <footer>

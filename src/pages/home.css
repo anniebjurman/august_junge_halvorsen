@@ -62,7 +62,6 @@ footer > h2 {
         z-index: -1;
         height: 100vh;
         width: 100vw;
-        overflow: hidden;
     }
 
     footer {
