@@ -29,7 +29,7 @@ function Home() {
       </div>
 
       <footer>
-        <h2>Kontakt</h2>
+        <h2><a href="mailto:test@example.com?subject=Testing out mailto!&body=This is only a test!">Kontakt</a></h2>
       </footer>
     </div>
   );

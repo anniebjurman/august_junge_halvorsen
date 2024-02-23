@@ -45,6 +45,11 @@ footer > h2 {
     text-transform: lowercase;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 /* Mobile */
 @media only screen and (max-width: 650px) {
     .header_desktop {
@@ -62,6 +67,10 @@ footer > h2 {
         z-index: -1;
         height: 100vh;
         width: 100vw;
+    }
+
+    a {
+        color: rgb(255, 255, 255);
     }
 
     footer {

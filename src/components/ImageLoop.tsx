@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { wrap } from "popmotion";
+import './ImageLoop.css';
 
 const images = [
     './images/August_Junge_Halvorsen_01.jpg',
@@ -21,19 +22,20 @@ function ImageLoop() {
     }, []);
 
     return (
-        <>
+        <div className="imageLoopCont">
             <AnimatePresence>
                 <motion.img
-                    style={{ height: 500, width: 350, position:"absolute" }}
+                    className="image"
                     key={currentImageIndex}
                     src={images[imageIndex]}
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     exit={{ opacity: 0 }}
-                    transition={{ type: "linear", duration: .8}}
+                    transition={{ type: "ease", duration: .8}}
                 />
             </AnimatePresence>
-        </>
+            <div className="imgBackground"></div>
+        </div>
     );
 };
 
