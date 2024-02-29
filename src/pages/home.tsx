@@ -10,7 +10,12 @@ function Home() {
   }
 
   return (
-    <div className="home">
+    <motion.div
+      className="home"
+      initial={{  opacity: 0 }}
+      animate={ { opacity: 1 }}
+      transition={{ duration: .75 }}
+    >
 
       <div className="header_desktop">
         <div className='h_part h_start'>
@@ -42,11 +47,12 @@ function Home() {
           onHoverStart={e => {}}
           onHoverEnd={e => {}}
           onClick={openMail}
+          className='contact'
         >
           Kontakt
         </motion.h2>
       </footer>
-    </div>
+    </motion.div>
   );
 }
 

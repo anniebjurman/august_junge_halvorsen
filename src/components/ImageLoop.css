@@ -2,11 +2,11 @@
 .image, .imgBackground {
     height: 100%;
     aspect-ratio: 9/16;
-    overflow: hidden;
 }
 
 .image {
     position: absolute;
+    object-fit: cover;
 }
 
 .imgBackground {
@@ -17,7 +17,6 @@
 
 .imageLoopCont {
     height: 100%;
-    width: 100vw;
     display: flex;
     justify-content: center;
     position: relative;
@@ -28,9 +27,6 @@
 @media only screen and (max-width: 650px) {
     .image, .imgBackground {
         min-height: 100vh;
-        /* min-width: 100vw; */
-        aspect-ratio: 3/4; /* 9/16 */
-        overflow: hidden;
+        min-width: 100vw;
     }
-
 }

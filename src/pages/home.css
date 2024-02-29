@@ -43,13 +43,13 @@ footer {
     padding: 10px 0px;
 }
 
-footer > h2 {
+.contact {
     text-transform: lowercase;
+    padding: 10px;
 }
 
-a {
-    text-decoration: none;
-    color: black;
+.contact:hover {
+    cursor: pointer;
 }
 
 /* Mobile */
