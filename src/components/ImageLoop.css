@@ -7,6 +7,7 @@
 .image {
     position: absolute;
     object-fit: cover;
+    overflow: hidden;
 }
 
 .imgBackground {
@@ -17,6 +18,7 @@
 
 .imageLoopCont {
     height: 100%;
+    width: 100%;
     display: flex;
     justify-content: center;
     position: relative;
@@ -26,7 +28,7 @@
 /* Mobile */
 @media only screen and (max-width: 650px) {
     .image, .imgBackground {
-        min-height: 100vh;
-        min-width: 100vw;
+        height: 100vh;
+        width: 100vw;
     }
 }
