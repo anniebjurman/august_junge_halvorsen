@@ -1,7 +1,13 @@
 import './Home.css';
 import ImageLoop from '../components/ImageLoop';
+import { motion } from "framer-motion";
 
 function Home() {
+
+  function openMail() {
+    console.log("Click mail");
+    window.location.href = 'mailto:test@example.com?subject=Testing out mailto!&body=This is only a test!';
+  }
 
   return (
     <div className="home">
@@ -29,7 +35,16 @@ function Home() {
       </div>
 
       <footer>
-        <h2><a href="mailto:test@example.com?subject=Testing out mailto!&body=This is only a test!">Kontakt</a></h2>
+        <motion.h2
+          whileHover={{
+            scale: 1.2
+          }}
+          onHoverStart={e => {}}
+          onHoverEnd={e => {}}
+          onClick={openMail}
+        >
+          Kontakt
+        </motion.h2>
       </footer>
     </div>
   );
