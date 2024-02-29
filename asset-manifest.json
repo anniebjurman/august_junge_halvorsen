@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d1bfeb66.css",
+    "main.js": "/static/js/main.418a7304.js",
+    "static/js/592.32c34793.chunk.js": "/static/js/592.32c34793.chunk.js",
+    "static/media/times_new_roman_bold.ttf": "/static/media/times_new_roman_bold.52cae610797e70864671.ttf",
+    "static/media/times_new_roman.ttf": "/static/media/times_new_roman.f4e3a464f960c9dea950.ttf",
+    "index.html": "/index.html",
+    "main.d1bfeb66.css.map": "/static/css/main.d1bfeb66.css.map",
+    "main.418a7304.js.map": "/static/js/main.418a7304.js.map",
+    "592.32c34793.chunk.js.map": "/static/js/592.32c34793.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d1bfeb66.css",
+    "static/js/main.418a7304.js"
+  ]
+}
