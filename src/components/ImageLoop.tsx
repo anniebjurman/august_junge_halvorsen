@@ -5,8 +5,8 @@ import './ImageLoop.css';
 
 const images = [
     './images/August_Junge_Halvorsen_01.jpg',
-    '/images/August_Junge_Halvorsen_02.jpg',
-    '/images/August_Junge_Halvorsen_03.jpg'
+    './images/August_Junge_Halvorsen_02.jpg',
+    './images/August_Junge_Halvorsen_03.jpg'
 ];
 
 function ImageLoop() {
