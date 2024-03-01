@@ -1,4 +1,4 @@
-import './Home.css';
+import './home.css';
 import ImageLoop from '../components/ImageLoop';
 import { motion } from "framer-motion";
 

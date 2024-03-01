@@ -32,6 +32,7 @@ function ImageLoop() {
                     animate={{ opacity: 1 }}
                     exit={{ opacity: 0 }}
                     transition={{ type: "ease", duration: .8}}
+                    alt="text"
                 />
             </AnimatePresence>
             <div className="imgBackground"></div>
