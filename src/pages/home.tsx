@@ -1,5 +1,4 @@
-import './Home.css';
-import ImageLoop from '../components/ImageLoop';
+import './Home.css'
 import { motion } from "framer-motion";
 
 function Home() {
@@ -12,46 +11,28 @@ function Home() {
   return (
     <motion.div
       className="home"
-      initial={{  opacity: 0 }}
-      animate={ { opacity: 1 }}
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
       transition={{ duration: .75 }}
     >
 
-      <div className="header_desktop">
-        <div className='h_part h_start'>
-            <h1>August</h1>
-        </div>
-        <div className='h_part h_middle'>
-            <h1>Junge</h1>
-        </div>
-        <div className='h_part h_end'>
-            <h1>Halvorsen</h1>
-        </div>
-      </div>
-
-      <div className='header_mobile'>
-        <h1>August</h1>
-        <h1>Junge</h1>
-        <h1>Halvorsen</h1>
+      <div className='header'>
+        <h1>A<br />J<br />H</h1>
       </div>
 
       <div className='body'>
-        <ImageLoop/>
-      </div>
-
-      <footer>
-        <motion.h2
+        <motion.div
+          className='contactBox'
           whileHover={{
-            scale: 1.2
+            scale: 1.1
           }}
-          onHoverStart={e => {}}
-          onHoverEnd={e => {}}
           onClick={openMail}
-          className='contact'
         >
-          Kontakt
-        </motion.h2>
-      </footer>
+          <h2 className='contact'>
+            kontakt.
+          </h2>
+        </motion.div>
+      </div>
     </motion.div>
   );
 }
