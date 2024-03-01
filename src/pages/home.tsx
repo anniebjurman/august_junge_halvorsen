@@ -1,4 +1,5 @@
-import './home.css'
+import Slideshow from '../components/Slideshow';
+import './home.css';
 import { motion } from "framer-motion";
 
 function Home() {
@@ -40,7 +41,8 @@ function Home() {
           </motion.div>
         </div>
 
-        <div id='slideshowCont'>IMAGE</div>
+        {/* <div id='slideshowCont'></div> */}
+        <Slideshow/>
 
       </div>
     </motion.div>
