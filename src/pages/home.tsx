@@ -1,8 +1,26 @@
 // import Slideshow from '../components/Slideshow';
+import React from 'react';
 import './home.css';
 import { motion } from "framer-motion";
 
+const images = [
+  './images/img1.jpg',
+  './images/img2.jpg',
+  './images/img3.jpg'
+];
+
 function Home() {
+  const [index, setIndex] = React.useState(0);
+
+  React.useEffect(() => {
+    setTimeout(
+        () =>
+            setIndex((index) => (index + 1) % images.length),
+        5000
+    );
+
+    return () => {};
+}, [index]);
 
   function openMail() {
     console.log("Click mail");
@@ -41,7 +59,7 @@ function Home() {
           </motion.div>
         </div>
 
-        <div id='slideshowCont' style={{backgroundImage: `url(./images/img1.jpg)`}}>
+        <div id='slideshowCont' style={{backgroundImage: `url(${images[0]})`}}>
           {/* <img src='./images/img1.jpg' alt='hej'/> */}
         </div>
         {/* <Slideshow/> */}
