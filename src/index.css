@@ -24,13 +24,12 @@ code {
   src: local('TimesNewRoman'), url(./fonts/times_new_roman.ttf) format('truetype');
 }
 
-/* ::-webkit-scrollbar {
+::-webkit-scrollbar {
   display: none;
 }
 
 body {
-  -ms-overflow-style: none;  IE and Edge
-  scrollbar-width: none;  Firefox
+  -ms-overflow-style: none;
+  scrollbar-width: none;
   padding: 0;
-  background-color: #ffffff;
-} */
+}

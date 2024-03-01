@@ -1,33 +1,65 @@
-.home {
+#home {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    background-color: pink;
-    padding: 20px 30px;
-    min-height: 100% !important;
+    /* justify-content: space-between; */
+    background-color: white;
+    padding: 40px 50px;
+    width: 100%;
 }
 
-.header {
-    background-color: red;
+#header {
+    /* background-color: lightcyan; */
 }
 
-.body {
-    background-color: hotpink;
+#letters {
+    /* background-color: lightpink; */
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    align-items: center;
 }
 
-.contactBox {
+#body {
+    /* background-color: lightgreen; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    gap: 100px;
+}
+
+
+#infoContainer {
+    /* background-color: lightblue; */
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+#contactBox {
     background-color: black;
     padding: 10px 20px;
     width: fit-content;
 }
 
-.contactBox:hover {
+#contactBox:hover {
     cursor: pointer;
 }
 
-.contact {
+#contact {
     text-transform: lowercase;
     color: white;
+}
+
+#slideshowCont {
+    background-color: rgb(160, 160, 160);
+    height: 80%;
+    aspect-ratio: 2/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Mobile */

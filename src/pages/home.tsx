@@ -1,4 +1,4 @@
-import './Home.css'
+import './home.css'
 import { motion } from "framer-motion";
 
 function Home() {
@@ -10,28 +10,38 @@ function Home() {
 
   return (
     <motion.div
-      className="home"
+      id="home"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: .75 }}
     >
 
-      <div className='header'>
-        <h1>A<br />J<br />H</h1>
+      <div id='header'>
+        <div id='letters'>
+          <h1>A</h1>
+          <h1>J</h1>
+          <h1>H</h1>
+        </div>
       </div>
 
-      <div className='body'>
-        <motion.div
-          className='contactBox'
-          whileHover={{
-            scale: 1.1
-          }}
-          onClick={openMail}
-        >
-          <h2 className='contact'>
-            kontakt.
-          </h2>
-        </motion.div>
+      <div id='body'>
+        <div id='infoContainer'>
+          <h2>arkitekt august junge halvorsen.</h2>
+          <motion.div
+            id='contactBox'
+            whileHover={{
+              scale: 1.04
+            }}
+            onClick={openMail}
+          >
+            <h2 id='contact'>
+              kontakt.
+            </h2>
+          </motion.div>
+        </div>
+
+        <div id='slideshowCont'>IMAGE</div>
+
       </div>
     </motion.div>
   );
