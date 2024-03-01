@@ -38,6 +38,10 @@
     gap: 30px;
 }
 
+#infoContainer > h2 {
+    text-align: right;
+}
+
 #contactBox {
     background-color: black;
     padding: 10px 15px;
@@ -55,13 +59,19 @@
 }
 
 #slideshowCont {
-    background-color: rgb(160, 160, 160);
+    /* background-color: rgb(160, 160, 160); */
     height: 80%;
     aspect-ratio: 2/3;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+    background-size: cover;
+    background-position: center;
 }
+
+/* #slideshowCont > img {
+    object-fit: cover;
+    max-width:100%;
+    max-height:100%;
+} */
 
 /* Mobile */
 @media only screen and (max-width: 650px) {

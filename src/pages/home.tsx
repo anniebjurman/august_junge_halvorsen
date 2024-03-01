@@ -41,8 +41,8 @@ function Home() {
           </motion.div>
         </div>
 
-        <div id='slideshowCont'>
-          <img src='/images/img1.jpg' alt='hej'/>
+        <div id='slideshowCont' style={{backgroundImage: `url(./images/img1.jpg)`}}>
+          {/* <img src='./images/img1.jpg' alt='hej'/> */}
         </div>
         {/* <Slideshow/> */}
 

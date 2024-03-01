@@ -4,9 +4,9 @@ import './Slideshow.css';
 
 const colors = ["#0088FE", "#00C49F", "#FFBB28"];
 const images = [
-    '/images/img1.jpg',
-    '/images/img2.jpg',
-    '/images/img3.jpg'
+    './images/img1.jpg',
+    './images/img2.jpg',
+    './images/img3.jpg'
 ];
 const delay = 5000;
 
@@ -45,7 +45,7 @@ function Slideshow() {
                             className='slide'
                             key={index}
                             src={imagePath}
-                            alt='hej'
+                            alt={imagePath}
                         ></img>
 
                         // <div
