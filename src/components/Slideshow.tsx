@@ -3,9 +3,11 @@ import './Slideshow.css';
 
 
 const colors = ["#0088FE", "#00C49F", "#FFBB28"];
-const images = ['./images/August_Junge_Halvorsen_01.jpg',
-                './images/August_Junge_Halvorsen_02.jpg',
-                './images/August_Junge_Halvorsen_03.jpg'];
+const images = [
+    '/images/img1.jpg',
+    '/images/img2.jpg',
+    '/images/img3.jpg'
+];
 const delay = 5000;
 
 function Slideshow() {
@@ -22,9 +24,7 @@ function Slideshow() {
         resetTimeout();
         timeoutRef.current = setTimeout(
             () =>
-                setIndex((prevIndex) =>
-                    prevIndex === images.length - 1 ? 0 : prevIndex + 1
-                ),
+                setIndex((index) => (index + 1) % images.length),
             delay
         );
 
@@ -45,7 +45,15 @@ function Slideshow() {
                             className='slide'
                             key={index}
                             src={imagePath}
+                            alt='hej'
                         ></img>
+
+                        // <div
+                        //     className='slide'
+                        //     key={index}
+                        //     style={{ backgroundImage: `url(${imagePath})`, backgroundColor: colors[index]}}
+                        // ></div>
+
                     ))}
                 </div>
             </div>

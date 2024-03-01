@@ -35,12 +35,12 @@
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    gap: 10px;
+    gap: 30px;
 }
 
 #contactBox {
     background-color: black;
-    padding: 10px 20px;
+    padding: 10px 15px;
     width: fit-content;
 }
 
@@ -51,6 +51,7 @@
 #contact {
     text-transform: lowercase;
     color: white;
+    font-size: .7em;
 }
 
 #slideshowCont {

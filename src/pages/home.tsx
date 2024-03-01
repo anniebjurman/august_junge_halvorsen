@@ -1,4 +1,4 @@
-import Slideshow from '../components/Slideshow';
+// import Slideshow from '../components/Slideshow';
 import './home.css';
 import { motion } from "framer-motion";
 
@@ -36,13 +36,15 @@ function Home() {
             onClick={openMail}
           >
             <h2 id='contact'>
-              kontakt.
+              kontakt
             </h2>
           </motion.div>
         </div>
 
-        {/* <div id='slideshowCont'></div> */}
-        <Slideshow/>
+        <div id='slideshowCont'>
+          <img src='/images/img1.jpg' alt='hej'/>
+        </div>
+        {/* <Slideshow/> */}
 
       </div>
     </motion.div>
