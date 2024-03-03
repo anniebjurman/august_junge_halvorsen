@@ -103,4 +103,13 @@
         gap: 10px;
         width: 80%;
     }
+
+    h2 {
+        letter-spacing: 1px;
+        font-size: 12px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
 }
