@@ -20,8 +20,7 @@ h2 {
 }
 
 .main_container {
-  padding: 20px 50px;
-  width: 100vw;
+  padding: 30px 50px;
   height: 100vh;
   min-height: 100%;
   box-sizing: border-box;

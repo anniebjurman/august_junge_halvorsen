@@ -40,7 +40,7 @@
 footer {
     display: flex;
     justify-content: center;
-    padding: 10px 0px;
+    padding: 20px 0px;
 }
 
 .contact {
@@ -61,18 +61,15 @@ footer {
     .header_mobile {
         display: flex;
         justify-content: space-between;
-        padding: 25px 15px;
+        margin: 25px 15px;
+        flex-wrap: wrap;
     }
 
     .body {
         position: absolute;
         z-index: -1;
-        height: 100vh;
-        width: 100vw;
-    }
-
-    a {
-        color: rgb(255, 255, 255);
+        height: 100%;
+        width: 100%;
     }
 
     footer {
