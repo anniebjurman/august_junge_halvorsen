@@ -4,9 +4,9 @@ import './Slideshow.css';
 
 const colors = ["#0088FE", "#00C49F", "#FFBB28"];
 const images = [
-    './images/img1.jpg',
-    './images/img2.jpg',
-    './images/img3.jpg'
+    './images/August_Junge_Halvorsen_01.jpg',
+    './images/August_Junge_Halvorsen_02.jpg',
+    './images/August_Junge_Halvorsen_03.jpg'
 ];
 const delay = 5000;
 
