@@ -64,9 +64,14 @@ footer {
 
     .header_mobile {
         display: flex;
-        justify-content: space-between;
+        /* justify-content: space-between; */
         padding: 20px;
         flex-wrap: wrap;
+    }
+
+    .header_mobile > h1 {
+        width: 100%;
+        line-height: 0.8;
         /* background-color: pink; */
     }
 
