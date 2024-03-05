@@ -40,17 +40,12 @@ function Home() {
       </div>
 
       <footer>
-        <motion.h2
-          whileHover={{
-            scale: 1.2
-          }}
-          onHoverStart={e => {}}
-          onHoverEnd={e => {}}
+        <h2
           onClick={openMail}
           className='contact'
         >
           Kontakt
-        </motion.h2>
+        </h2>
       </footer>
     </motion.div>
   );

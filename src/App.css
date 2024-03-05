@@ -6,21 +6,23 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-family: 'TimesNewRomanBold';
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 600;
   letter-spacing: 0.001em;
-  font-size: 25px;
+  font-size: 30px;
   text-transform: uppercase;
 }
 
 h2 {
-  font-family: 'TimesNewRoman';
+  font-family: "Times New Roman";
+  font-weight: 100;
   letter-spacing: 0.001em;
   font-size: 17px;
   text-transform: lowercase;
 }
 
 .main_container {
-  padding: 26px 36px;
+  padding: 26px 40px;
   width: 100%;
   height: 100dvh;
   min-height: 100%;
