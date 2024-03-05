@@ -16,7 +16,7 @@ function ImageLoop() {
     useEffect(() => {
         const interval = setInterval(() => {
             setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
-        }, 5000);
+        }, 4000);
 
         return () => clearInterval(interval);
     }, []);
@@ -31,7 +31,7 @@ function ImageLoop() {
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     exit={{ opacity: 0 }}
-                    transition={{ type: "ease", duration: .8}}
+                    // transition={{ type: "ease", duration: .8}}
                     alt="images of projects"
                 />
             </AnimatePresence>
