@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/august_junge_halvorsen/static/css/main.2446e048.css",
-    "main.js": "/august_junge_halvorsen/static/js/main.2fb73be5.js",
+    "main.css": "/august_junge_halvorsen/static/css/main.81eaacba.css",
+    "main.js": "/august_junge_halvorsen/static/js/main.3c3e82e7.js",
     "static/js/592.32c34793.chunk.js": "/august_junge_halvorsen/static/js/592.32c34793.chunk.js",
     "static/media/times_new_roman_bold.ttf": "/august_junge_halvorsen/static/media/times_new_roman_bold.52cae610797e70864671.ttf",
     "static/media/times_new_roman.ttf": "/august_junge_halvorsen/static/media/times_new_roman.f4e3a464f960c9dea950.ttf",
     "index.html": "/august_junge_halvorsen/index.html",
-    "main.2446e048.css.map": "/august_junge_halvorsen/static/css/main.2446e048.css.map",
-    "main.2fb73be5.js.map": "/august_junge_halvorsen/static/js/main.2fb73be5.js.map",
+    "main.81eaacba.css.map": "/august_junge_halvorsen/static/css/main.81eaacba.css.map",
+    "main.3c3e82e7.js.map": "/august_junge_halvorsen/static/js/main.3c3e82e7.js.map",
     "592.32c34793.chunk.js.map": "/august_junge_halvorsen/static/js/592.32c34793.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2446e048.css",
-    "static/js/main.2fb73be5.js"
+    "static/css/main.81eaacba.css",
+    "static/js/main.3c3e82e7.js"
   ]
 }
